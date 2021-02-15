@@ -77,9 +77,14 @@ ul { list-style-type: none;}
     width:70% ;height:60%;
 }
 .facts img { margin-bottom: 5px;}
-section img {
+.left {
+  float: left;
+  padding: 20px;
+}
+.right {
   float: right;
-  padding: 20px; }
+  padding: 20px;
+}
 
 /*Sections*/
 .facts {
@@ -97,5 +102,7 @@ section {
 }
 section ul {
   display: inline-block;
-  padding: 20px; 
+  padding: 20px;
 }
+
+.attractions { background-color: white; }
