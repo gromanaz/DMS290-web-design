@@ -1,17 +1,24 @@
 *{
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
 }
 
-/* Header and menu->*/
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1100px;
+}
+
+/* Header and menu*/
 .menu, header {
     background-color:rgb(144, 187, 155);
     text-align:center;
     padding: 0 300px 0 300px;
-    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
 }
 
 h1{
-    padding: 20px 10px 10px 10px;
+    padding: 15px 10px 10px 10px;
     font-size: 50px;
     border-bottom: 1px solid white;
 }
@@ -31,12 +38,7 @@ h1 a {
   color: white;
 }
 
-.container{
-    margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
+/*Footer*/
 footer{
     background-color:rgb(144, 187, 155);
     color:white;
@@ -47,15 +49,44 @@ footer{
 
 footer p, footer a { font-size: 16px;}
 
-.left{
-    line-height:30px;
-    background-color:#eeeeee;
-    height:700px;
-    width:25%;
-    float:left;
-    padding:5px;
-
+/*Text*/
+h2{
+    font-size: 27px;
+    color: #1E3B2B;
+    padding-bottom: 10px;
+    display: inline-block;
 }
+
+p{
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: #2D3B31;
+}
+a:hover {color: #688770;}
+ul { list-style-type: none;}
+
+.container img{
+    display: block;
+    margin: 0 auto 30px auto;
+    padding-top: 20px;
+    width:70% ;height:60%;
+}
+
+.facts {
+    line-height:23px;
+    background-color:#eeeeee;
+    float: right;
+    padding: 10px 25px;
+    margin: 30px;
+    margin-top: 0;
+}
+
+.facts img { margin-bottom: 5px;}
 .right{
     width:70%;
     height:700px;
@@ -84,18 +115,6 @@ footer p, footer a { font-size: 16px;}
     padding-right: 6%;
 }
 
-
-h2{
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: large;
-}
-p{
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15px;
-}
-
 #section1>img{
     display: block;
     margin-left: auto;
@@ -111,17 +130,3 @@ p{
     padding-top: 20px;
     width:80% ;height:80%;
 }
-
-.container img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    width:70% ;height:60%;
-}
-
-a {
-  text-decoration: none;
-  color: #2D3B31;
-}
-a:hover {color: #688770;}
