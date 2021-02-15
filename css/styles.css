@@ -37,13 +37,15 @@ h1 a {
     margin-right: 10%;
 }
 
-.footer{
+footer{
     background-color:rgb(144, 187, 155);
     color:white;
     clear:both;
     text-align:center;
-    padding:5px;
+    padding: 10px;
 }
+
+footer p, footer a { font-size: 16px;}
 
 .left{
     line-height:30px;
