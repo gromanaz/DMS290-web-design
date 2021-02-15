@@ -70,7 +70,7 @@ a {
 a:hover {color: #688770;}
 ul { list-style-type: none;}
 
-.container img{
+#city {
     display: block;
     margin: 0 auto 30px auto;
     padding-top: 20px;
@@ -120,7 +120,6 @@ ul { list-style-type: none;}
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width:75% ;height:60%;
 }
 
 #section2>img{
@@ -128,5 +127,4 @@ ul { list-style-type: none;}
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width:80% ;height:80%;
 }
