@@ -2,11 +2,33 @@
     margin: 0;padding: 0;
 }
 
-.menu{
+/* Header and menu->*/
+.menu, header {
     background-color:rgb(144, 187, 155);
-    color:white;
     text-align:center;
-    padding:10px;
+    padding: 0 300px 0 300px;
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+}
+
+h1{
+    padding: 20px 10px 10px 10px;
+    font-size: 50px;
+    border-bottom: 1px solid white;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li{
+    font-size: x-large;
+    display: inline-block;
+    padding: 10px 30px; 
+}
+
+.menu a, h1 a {
+  text-decoration: none;
+  color: white;
 }
 
 .container{
@@ -55,33 +77,17 @@
     width:95% ;height: 50%;
 }
 
-h1{
-    margin-left: 10px;
-    margin-right: 10px;
+.left ul{
+    padding-left: 6%;
+    padding-right: 6%;
 }
+
 
 h2{
     margin-left: 10px;
     margin-right: 10px;
     font-size: large;
 }
-
-.menu ul{
-    list-style:none;
-}
-
-.menu li{
-    font-size: x-large;
-    display:inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.left ul{
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
 p{
     margin-left: 10px;
     margin-right: 10px;
