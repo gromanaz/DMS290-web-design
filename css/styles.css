@@ -102,8 +102,9 @@ section {
 section ul {
   padding: 20px;
   background-color:#eeeeee;
-  margin: 10px;
+  margin: 10px 250px 10px 10px;
 }
+section .right { padding-top: 10px; }
 .attractions {
   background-color: white;
   margin: 0;
