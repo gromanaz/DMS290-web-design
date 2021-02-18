@@ -104,9 +104,10 @@ section ul {
   background-color:#eeeeee;
   margin: 10px 250px 10px 10px;
 }
-section .right { padding-top: 10px; }
 .attractions {
   background-color: white;
   margin: 0;
 }
+.food ul { margin-right: 250px; }
+.food img { padding-top: 10px; }
 #attractions1, #food1 { border-bottom: 1px solid black; }
