@@ -57,7 +57,7 @@ h2{
 }
 h3 {
   padding-top: 10px;
-  padding-bottom: 5px; 
+  padding-bottom: 5px;
 }
 p{
     margin-right: 10px;
@@ -119,3 +119,4 @@ section ul {
   margin-top: 0;
 }
 #attractions1, #food1 { border-bottom: 1px solid black; }
+.bold { font-weight: bold;}
