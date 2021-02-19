@@ -1,5 +1,3 @@
-# DMS290-web-design
-
 DMS 290 Assignment 02
 =====================
 
