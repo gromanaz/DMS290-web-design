@@ -55,7 +55,10 @@ h2{
     color: #1E3B2B;
     padding-bottom: 10px;
 }
-
+h3 {
+  padding-top: 10px;
+  padding-bottom: 5px; 
+}
 p{
     margin-right: 10px;
     font-size: 18px;
@@ -110,4 +113,9 @@ section ul {
 }
 .food ul { margin-right: 250px; }
 .food img { padding-top: 10px; }
+.attractions .facts ul {
+  margin-right: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
 #attractions1, #food1 { border-bottom: 1px solid black; }
